@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Medical Services</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #0066cc;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+        nav {
+            text-align: center;
+            background-color: #333;
+            padding: 0.5em;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        section {
+            margin: 20px 0;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+            position: relative;
+            width: 100%;
+            bottom: 0;
+        }
+        footer a {
+            color: white;
+            text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+        .services, .contact, .about {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .service-item, .contact-item, .about-item {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 10px;
+            width: 30%;
+            box-sizing: border-box;
+        }
+        .service-item h3, .contact-item h3, .about-item h3 {
+            color: #0066cc;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Our Medical Services</h1>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#services">Services</a>
+        <a href="#about">About Us</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="container">
+        <section id="home">
+            <h2>Welcome to Our Medical Center</h2>
+            <p>We provide a wide range of medical services to ensure your health and well-being.</p>
+        </section>
+
+        <section id="services">
+            <h2>Our Services</h2>
+            <div class="services">
+                <div class="service-item">
+                    <h3>General Consultation</h3>
+                    <p>Our doctors are available for general consultations to assess your health needs.</p>
+                </div>
+                <div class="service-item">
+                    <h3>Emergency Care</h3>
+                    <p>We provide 24/7 emergency services for any urgent medical needs.</p>
+                </div>
+                <div class="service-item">
+                    <h3>Surgical Procedures</h3>
+                    <p>We offer a wide range of surgical services for various health conditions.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="about">
+            <h2>About Us</h2>
+            <div class="about">
+                <div class="about-item">
+                    <h3>Our Mission</h3>
+                    <p>Our mission is to provide high-quality healthcare services to our community with compassion and care.</p>
+                </div>
+                <div class="about-item">
+                    <h3>Experienced Doctors</h3>
+                    <p>Our team of experienced doctors are committed to delivering the best medical care possible.</p>
+                </div>
+                <div class="about-item">
+                    <h3>Modern Facilities</h3>
+                    <p>Our medical center is equipped with state-of-the-art facilities for all your healthcare needs.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>If you have any questions or need more information, feel free to contact us.</p>
+            <div class="contact">
+                <div class="contact-item">
+                    <h3>Phone</h3>
+                    <p>(123) 456-7890</p>
+                </div>
+                <div class="contact-item">
+                    <h3>Email</h3>
+                    <p>contact@medicalcenter.com</p>
+                </div>
+                <div class="contact-item">
+                    <h3>Address</h3>
+                    <p>123 Health Street, City, State</p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Medical Services. All Rights Reserved.</p>
+        <p><a href="#privacy">Privacy Policy</a> | <a href="#terms">Terms of Service</a></p>
+    </footer>
+</body>
+</html>
